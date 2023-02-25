@@ -1,4 +1,4 @@
-# AÇÕES b3
+# AÇÕES B3
 Análise das Séries Históricas das Ações da B3
 
 Script em Linguagem R para análise dos dados das ações das empresas listadas na B3
