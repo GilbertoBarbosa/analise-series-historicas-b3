@@ -14,4 +14,8 @@ Foram também utilizadas as bibliotecas dplyr, gdata e ggplot2
 O layout do arquivo pode ser acessado por meio do link:
 https://www.b3.com.br/data/files/33/67/B9/50/D84057102C784E47AC094EA8/SeriesHistoricas_Layout.pdf
 
+Exemplo:
+
+![Exemplo gráfico](exemplo_grafico_v1.png)
+
 
