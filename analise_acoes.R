@@ -20,19 +20,8 @@ df <- ler_arquivo("COTAHIST_A2022.TXT")
 # Faz a leitura das primeiras linhas do arquivo
 head(df)
 
-# Converte string para Data
-df$DATAP = as.Date(df$DATAP, "%Y%m%d")
-
-# Obtém as casas decimais dos valores
-df$PREABE = df$PREABE/100
-df$PREMAX = df$PREMAX/100
-df$PREMIN = df$PREMIN/100
-df$PREMED = df$PREMED/100
-df$PREULT = df$PREULT/100
-df$PREOFC = df$PREOFC/100
-df$PREOFV = df$PREOFV/100
-df$VOLTOT = df$VOLTOT/100
-df$PREEXE = df$PREEXE/100
+# Faz a conversão de campos data e valores
+converter_campos(df)
 
 
 # Resumo estatístico

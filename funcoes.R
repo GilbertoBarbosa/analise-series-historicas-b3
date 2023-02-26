@@ -36,3 +36,30 @@ gerar_grafico <- function(dataframe, x, y, titulo, cor) {
     geom_point()
   
 }
+
+
+# Constroi boxplot
+gerar_boxplot <- function(dataframe, x, y, titulo) {
+  
+  ggplot(dataframe, aes(x=x, y=y)) +
+    geom_boxplot(outlier.colour = "red") +
+    ggtitle(titulo)
+  
+}
+
+converter_campos <- function(df) {
+  
+  # Converte string para Data
+  df$DATAP = as.Date(df$DATAP, "%Y%m%d")
+  
+  # Obtém as casas decimais dos valores
+  df$PREABE = df$PREABE/100
+  df$PREMAX = df$PREMAX/100
+  df$PREMIN = df$PREMIN/100
+  df$PREMED = df$PREMED/100
+  df$PREULT = df$PREULT/100
+  df$PREOFC = df$PREOFC/100
+  df$PREOFV = df$PREOFV/100
+  df$VOLTOT = df$VOLTOT/100
+  df$PREEXE = df$PREEXE/100
+}
