@@ -14,8 +14,14 @@ Foram também utilizadas as bibliotecas dplyr, gdata e ggplot2
 O layout do arquivo pode ser acessado por meio do link:
 https://www.b3.com.br/data/files/33/67/B9/50/D84057102C784E47AC094EA8/SeriesHistoricas_Layout.pdf
 
-Exemplos:
+Exemplo Gráfico de Linhas:
 
 ![Exemplo gráfico](exemplo_grafico_v1.png)
 
+Exemplo Gráfico Candlestick
+
 ![Exemplo gráfico](exemplo_decomposicao.png)
+
+Exemplo Gráfico Decomposição
+
+![Exemplo gráfico](exemplo_candlestick.png)
