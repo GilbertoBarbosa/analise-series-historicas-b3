@@ -20,8 +20,8 @@ Exemplo Gráfico de Linhas:
 
 Exemplo Gráfico Candlestick
 
-![Exemplo gráfico](exemplo_decomposicao.png)
+![Exemplo gráfico](exemplo_candlestick_plot.png)
 
 Exemplo Gráfico Decomposição
 
-![Exemplo gráfico](exemplo_candlestick.png)
+![Exemplo gráfico](exemplo_decomposicao.png)
