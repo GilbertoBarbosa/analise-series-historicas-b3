@@ -22,7 +22,7 @@ df <- ler_arquivo("COTAHIST_A2022.TXT")
 head(df)
 
 # Faz a conversão de campos data e valores
-converter_campos(df)
+df <- converter_campos(df)
 
 # Resumo estatístico
 summary(df$PREMAX)
@@ -37,6 +37,12 @@ COD = 'ELET6'
 
 dfCODNEG <- filter(df, trim(CODNEG) == COD)
 
+fig <- dfCODNEG %>% plot_ly(x = ~DATAP, type="candlestick",
+                            open = ~PREABE, close = ~PREULT,
+                            high = ~PREMAX, low = ~PREMIN)
+fig <- fig %>% layout(title = "Candlestick")
+
+fig
 
 
 # Libera memória

@@ -21,7 +21,7 @@ df <- ler_arquivo("COTAHIST_A2022.TXT")
 head(df)
 
 # Faz a conversão de campos data e valores
-converter_campos(df)
+df <- converter_campos(df)
 
 # Resumo estatístico
 summary(df$PREMAX)

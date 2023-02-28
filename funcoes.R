@@ -62,4 +62,6 @@ converter_campos <- function(df) {
   df$PREOFV = df$PREOFV/100
   df$VOLTOT = df$VOLTOT/100
   df$PREEXE = df$PREEXE/100
+  
+  return (df)
 }
