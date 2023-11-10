@@ -15,7 +15,7 @@ source("funcoes.R")
 # Os arquivos poderão ser acessados pelo link oficial da B3:
 # https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/
 
-df <- ler_arquivo("COTAHIST_A2022.TXT")
+df <- ler_arquivo("COTAHIST_A2023.TXT")
 
 # Faz a leitura das primeiras linhas do arquivo
 head(df)
@@ -33,7 +33,7 @@ table(df$CODNEG)
 
 # Codigo de Negociação do papel (CODNEG)
 
-COD = 'ELET6'
+COD = 'BBAS3'
 
 dfCODNEG <- filter(df, trim(CODNEG) == COD)
 
