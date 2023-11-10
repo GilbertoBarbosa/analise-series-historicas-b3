@@ -24,4 +24,4 @@ Exemplo Gráfico Candlestick
 
 Exemplo Gráfico Decomposição
 
-![Exemplo gráfico](decomposicao.png)
+![Exemplo gráfico](exemplo_decomposicao.png)
