@@ -16,12 +16,12 @@ https://www.b3.com.br/data/files/33/67/B9/50/D84057102C784E47AC094EA8/SeriesHist
 
 Exemplo Gráfico de Linhas:
 
-![Exemplo gráfico](exemplo_grafico_v1.png)
+![Exemplo gráfico](melhor-oferta-venda.png)
 
 Exemplo Gráfico Candlestick
 
-![Exemplo gráfico](exemplo_candlestick_plot.png)
+![Exemplo gráfico](candlestick.png)
 
 Exemplo Gráfico Decomposição
 
-![Exemplo gráfico](exemplo_decomposicao.png)
+![Exemplo gráfico](decomposicao.png)
